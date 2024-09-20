@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/javinha.js" defer></script>
+</head>
+
+<body>
+    <img src="img/cars-6381364_640.jpg" alt="Carros">
+    <h1>Dados do Cliente</h1>
+    Digite o nome do cliente:<br />
+    <input type="text" id="boxdados" /><br />
+    Digite a placa do veículo:<br />
+    <input type="text" id="boxplaca" /><br />
+    Digite o modelo do veículo:<br />
+    <input type="text" id="boxmodelo" /><br />
+    Digite quantos dias:<br />
+    <input type="text" id="boxdias" /><br />
+    Digite o valor da diária:<br />
+    <input type="text" id="boxvalor" /><br />
+    <input type="button" value="Calcular" onclick="calcularTotal()">
+    <input type="button" value="Limpar" onclick="limparCampos()">
+    <input type="submit" value="Sair">
+
+    <h1>Resumo</h1>
+    <div id="result"></div>
+</body>
+
+</html>
